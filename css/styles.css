@@ -1,0 +1,514 @@
+html { 
+    font-size: 62.5%;
+    background-color: rgba(120, 76, 54, 1); 
+    
+ 
+}
+
+
+body { 
+    margin:0; 
+    font-family: 'Poppins', 'Mulish';
+  
+}
+
+.wrapper{ 
+    max-width: 1200px; 
+    margin: 0 auto; 
+
+} 
+
+.header { 
+
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish';
+    font-size: 2.0rem; 
+    padding-left: auto; 
+    padding-right: auto; 
+    
+   
+
+
+}
+
+.button-container{ 
+    display: flex;
+}
+
+.buttons { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0; 
+    padding: auto;
+   
+}
+
+.logoBar {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* width: 200px; */
+     margin: 0 auto; 
+    text-align: center; 
+    width:200px;
+/* } */
+}
+
+#siteLogo {
+    max-width: 90%; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+
+.primary-bts{ 
+
+    background-color:   #D5D8EA;
+    font-size: 1.8rem; 
+    color: rgba(51, 17, 17, 1); 
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1em 2em; 
+    margin: 0 10px;
+    /* align-items: center; */
+    
+}
+
+.primary-bts:hover { 
+    background-color: #D5D8EA;
+}
+
+
+.secondary-bts{ 
+
+    background-color: rgb(208, 174, 23);
+    font-size: 1.8rem; 
+    color: rgba(51, 17, 17, 1); 
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1em 2em; 
+    margin: 0 10px;
+    /* align-items: center; */
+}
+    
+.secondary-bts:hover { 
+    background-color: white;
+}
+
+
+
+nav { 
+    display: flex;
+    justify-content: center;
+    position:relative;
+    width: 100%; 
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    padding: 0.5em;
+    
+
+}
+
+.nav-icon { 
+    display: none;
+}
+
+
+nav::before, 
+nav::after{ 
+    content: "";
+    position: absolute;
+    /* margin: 4em; 
+    font-size: 3em;  */
+    width: 110%;
+    height: 2px;
+    background-color: #D5D8EA;
+ 
+    
+    /* border-bottom: 2px solid #D5D8EA; 
+    border-top: 2px solid #D5D8EA; 
+    */
+}
+
+nav::before {
+    top: 0;
+}
+
+nav::after {
+    bottom: 0;
+}
+
+
+
+
+.nav-list{ 
+    list-style-type: none;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* position:absolute; */
+    gap: 10em; 
+    padding-left: 1em; 
+    position: relative;
+    /* flex-wrap: wrap; */
+    
+
+}
+
+.nav-list li {
+    /* Remove gap between li elements */
+    margin-right: 0;
+}
+
+.nav-list li a { 
+
+    text-decoration: none;
+    color: #D5D8EA;
+    font-family: 'Mulish';
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    
+}
+
+main 
+ { 
+    display: flex;
+    flex-direction: row;
+    gap:1em; 
+    margin-top: 8em; 
+    /* grid-template-columns: auto auto;
+    grid-template-areas: 
+    "left right"; */
+    
+    justify-content: space-between;
+   align-items: center;
+    margin: 5em 0 ;
+    padding: 5px; 
+    background-size: cover;
+    width: 100%;
+
+}
+
+.columns { 
+
+    display: flex;
+    flex-direction: row;
+    gap:1em; 
+    /* margin-top: 8em;  */
+    /* grid-template-columns: auto auto;
+    grid-template-areas: 
+    "left right"; */
+    
+    justify-content: space-between;
+   align-items: center;
+    /* margin: 5em 0 ; */
+  
+    background-size: cover;
+    width: 100%;
+
+
+}
+
+/* .columns {
+    display: flex;
+    flex-direction: row;
+    gap:1em; 
+    margin-top: 11em; 
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5em 0 ;
+    padding: 16px; 
+
+
+} */
+
+/* .columns { 
+    display: flex;
+    flex-direction: row;
+
+} */
+
+main h1{ 
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3.0rem;
+    margin-bottom: 90px;
+    
+    
+}
+.left-col { 
+    /* display: grid;  */
+    border: .8em;
+    padding: 16px; 
+    background-image: url('../pictures/menu pic 2.jpeg');
+    /* background-size: 200%; */
+    background-size: cover;
+    grid-area: left;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+    
+   
+}
+
+/* 
+.card1 { 
+
+    border: .8em;
+    padding: 16px; 
+    /* background-image: url('../pictures/menu pic 2.jpeg'); */
+    /* background-size: cover;
+    grid-area: left;
+    border-radius: .8em;
+    padding: 1.1em;
+    display: flex; 
+    align-items: end; 
+    width: 150%;
+    height: 150%; */
+
+
+.menu { 
+    font-family: "Mulish" ;
+    background-color:  #D5D8EA;
+    font-size: 1.5rem; 
+    color: rgba(51, 17, 17, 1); 
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1em 2em; 
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+   
+}
+
+.loyalty { 
+    font-family: "Mulish" ;
+    background-color:  rgb(208, 174, 23);
+    font-size: 1.5rem; 
+    color: rgba(51, 17, 17, 1); 
+    text-decoration: none;
+    border-radius: 1.2em;
+    padding: 1em 2em; 
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0; 
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+   
+}
+
+.menu:hover { 
+    background-color: white;
+}
+
+.loyalty:hover { 
+    background-color: white;
+} 
+
+.right-col { 
+    position: relative;
+    display: flex;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    /* display: grid;  */
+    border: .8em;
+    padding: 16px; 
+    background-image: url('../pictures/knead option 1.jpeg');
+    background-size: cover;
+    grid-area: right;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+   
+}
+
+.right-butts { 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 2em; 
+    align-items: center;
+    padding: auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+    nav ul li{
+      display: none; 
+    }
+  
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-bts {
+    display: block;
+    margin: 0 auto; /* Center the secondary buttons */
+    text-align: center; 
+    width:50%;
+    
+}
+
+.primary-bts { 
+    display:none
+}
+
+.logoBar {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 0.5em; 
+    height: auto;
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    
+
+}
+
+.main{ 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.columns { 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-col,
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+   
+}
+
+.right-col{ 
+    display: flex;
+    margin: 0 auto; /* Center the secondary buttons */
+    text-align: center; 
+    background-position: center;
+   
+
+}
+
+
+
+}
+
+  @media only screen and (min-width: 768px) {
+  
+    .nav-icon {
+      display: none;
+    }
+
+    nav {
+        max-width: 90%; 
+        margin: 0 auto; 
+        flex-wrap: wrap;
+    }
+
+
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-list li { 
+        flex-shrink: 1;
+        text-align: center;
+    }
+
+    .nav-list li a { 
+        flex-shrink: 1;
+        text-align: center;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .left-col { 
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-col {
+        background-position: center;
+        flex-direction: column; 
+        align-items: flex-start;
+        justify-content: center;
+       
+    }
+
+    .right-butts {
+        flex-direction: column; 
+       flex-wrap: wrap;
+       justify-content: center;
+       padding: 5%;
+       margin-top: 50px;
+    }
+
+
+.main h1 {
+   
+    font-size: 2.5rem; 
+    position: relative;
+    margin-bottom: 90px;
+}
+  
+}
+  
